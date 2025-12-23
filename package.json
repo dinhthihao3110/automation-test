@@ -1,0 +1,33 @@
+{
+  "name": "automation-test",
+  "version": "2.0.0",
+  "description": "Beginner-Friendly Automation Testing with Playwright - Complete & Optimized",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "setup": "py setup.py",
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "test:register": "playwright test tests/register.spec.js",
+    "test:login": "playwright test tests/login.spec.js",
+    "test:logout": "playwright test tests/logout.spec.js",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report",
+    "codegen": "playwright codegen https://demo1.cybersoft.edu.vn"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "testing",
+    "e2e",
+    "beginner-friendly",
+    "clean",
+    "optimized"
+  ],
+  "author": "Dinh Thi Hao",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0"
+  }
+}
